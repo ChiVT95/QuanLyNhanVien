@@ -66,7 +66,7 @@ public class QuanLyTask implements IQuanLyTask {
             System.out.print("Nhap ten du an co task dang thuc hien: ");
             String tenda = sc.nextLine().trim();
             if (tenda.length() > 0) {
-                c.setTieuDeTak(tenda);
+                c.setTaskThuocDuAn(tenda);
                 break;
             }
             System.out.println("ten du an co task dang thuc hien ko hop le ! Khong duoc de trong ,...... ");
@@ -76,7 +76,7 @@ public class QuanLyTask implements IQuanLyTask {
             System.out.print("Nhap ten nhan vien dang phu trach task: ");
             String tennv = sc.nextLine().trim();
             if (tennv.length() > 0) {
-                c.setTieuDeTak(tennv);
+                c.setNhanVienPhuTrachTask(tennv);
                 break;
             }
             System.out.println("ten nhan vien khong hop le ! Khong duoc de trong ,...... ");
